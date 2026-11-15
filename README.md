@@ -10,7 +10,7 @@ Type a topic, pick a format, and get 3 finished scripts with timed beats. Or get
 
 ## The 36-second intro
 
-Built in [Remotion](https://www.remotion.dev/) (source in [`intro-video/`](intro-video/)): an empty script page fills up, ingredient by ingredient, until it becomes 3 finished scripts.
+Built in [Remotion](https://www.remotion.dev/) (source in [`intro-video/`](intro-video/)): an empty script page fills up, ingredient by ingredient, until it becomes 3 finished scripts. (The voiceover audio is not included in the repo.)
 
 ![Last Line intro](docs/media/intro.gif)
 
