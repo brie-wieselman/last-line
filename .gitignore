@@ -1,0 +1,16 @@
+# Personal build: never public
+personal.js
+serve_personal.py
+__pycache__/
+HANDOFF.md
+.claude/
+.netlify/
+# Build output
+dist/
+node_modules/
+intro-video/remotion/out/
+.DS_Store
+.env
+# Voice-clone audio: never public
+intro-video/remotion/public/vo/
+intro-video/VOICEOVER.md

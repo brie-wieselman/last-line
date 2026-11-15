@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Last Line · video scripts in your own voice</title>
+<meta name="description" content="Script writer for YouTubers and short-form creators, free on your own Gemini key. Type a topic, get 3 scripts with a hook, timed beats and a last line that lands, in your voice.">
+<meta name="theme-color" content="#0c0d10">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Last Line">
+<meta property="og:title" content="Last Line · video scripts in your own voice">
+<meta property="og:description" content="Script writer for YouTubers and short-form creators, free on your own Gemini key. Type a topic, get 3 scripts with a hook, timed beats and a last line that lands, in your voice.">
+<meta property="og:url" content="https://lastline.localcurrent.ai/">
+<link rel="canonical" href="https://lastline.localcurrent.ai/">
+<meta property="og:image" content="https://lastline.localcurrent.ai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Last Line: write the script, keep your voice">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' x2='1'%3E%3Cstop offset='0' stop-color='%23c4a8ff'/%3E%3Cstop offset='.5' stop-color='%23e6aedb'/%3E%3Cstop offset='1' stop-color='%23ffb48a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='url(%23g)'/%3E%3Crect x='14' y='22' width='36' height='5' rx='2.5' fill='%230c0d10' opacity='.5'/%3E%3Crect x='14' y='31' width='26' height='5' rx='2.5' fill='%230c0d10' opacity='.5'/%3E%3Crect x='14' y='40' width='36' height='6' rx='3' fill='%230c0d10'/%3E%3C/svg%3E">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Last Line","applicationCategory":"MultimediaApplication","operatingSystem":"Any (web browser)","description":"Script writer for YouTubers and short-form creators, free on your own Gemini key. Type a topic, get 3 scripts with a hook, timed beats and a last line that lands, in your voice.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"creator":{"@type":"Person","name":"Brie Wieselman"}}</script>
+<link rel="preload" href="fonts/geist-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css?v=22">
+</head>
+<body>
+<a class="skip" href="#main">Skip to the tool</a>
+
+<header class="shell top">
+  <a class="wordmark" href="./"><span class="mark" aria-hidden="true"><i></i><i></i><i></i></span><span class="wm">Last Line<span>.</span></span></a>
+  <button class="keypill" id="keyPill" type="button" aria-describedby="keyHelp">
+    <span class="dot" aria-hidden="true"></span><span id="keyPillTxt">Add Gemini key</span>
+  </button>
+</header>
+
+<main id="main" class="shell">
+  <section class="hero">
+    <p class="eyebrow">Free to use · runs on your own Gemini key</p>
+    <h1>Write the script.<br><em>Keep your voice.</em></h1>
+    <p class="lede">For YouTubers and short-form creators. Type a topic and get 3 scripts with a hook, timed beats and a last line that lands.</p>
+
+    <form class="quick" id="quick" novalidate>
+      <label for="quickTopic">What's your video about?</label>
+      <div class="quickrow">
+        <input id="quickTopic" name="topic" type="text" autocomplete="off" enterkeyhint="go" placeholder="Why most budgeting apps fail by month two">
+        <button class="btn primary" type="submit">Get started</button>
+      </div>
+      <p class="hint" id="quickHint">You'll need your own Gemini key from Google. It's free and takes about 30 seconds; we'll show you how.</p>
+    </form>
+    <button class="btn ghost sm introbtn" id="introHero" type="button"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>Watch the 36-second intro</button>
+
+    <div class="chips" role="group" aria-labelledby="chipsLabel">
+      <span class="label" id="chipsLabel">Format</span>
+      <button class="chip" type="button" data-format="ytexplainer" aria-pressed="false">YouTube explainer <span class="tag">popular</span></button>
+      <button class="chip" type="button" data-format="value" aria-pressed="false">Talking head</button>
+      <button class="chip" type="button" data-format="tutorial" aria-pressed="false">Tutorial</button>
+      <button class="chip" type="button" data-format="story" aria-pressed="false">Personal story</button>
+      <button class="chip" type="button" data-action="more">All 19 formats</button>
+    </div>
+  </section>
+
+  <section class="sample" aria-labelledby="sampleTitle">
+    <div class="samplehead">
+      <h2 id="sampleTitle">Here's what you get</h2>
+      <p class="hint">A real example. Topic: "Why most budgeting apps fail by month two" · Talking head · 45 seconds. You get three like this, each with a different hook.</p>
+    </div>
+    <article class="card samplecard">
+      <header class="chead"><span class="badge">Contrarian</span><span class="dur">94 words · ~45s</span></header>
+      <h3 class="ctitle">Cut it to four</h3>
+      <div class="cbody">
+        <section class="beat hook"><h4>0:00–0:04 · Hook stack</h4>
+          <div class="hookrow"><b>VERBAL</b><span>You didn't quit budgeting. Budgeting quit you, somewhere around week six.</span></div>
+          <div class="hookrow"><b>WRITTEN</b><span>Why budgets die in month two</span></div>
+          <div class="hookrow"><b>VISUAL</b><span>A phone with a budgeting app and a stack of unread notifications.</span></div>
+        </section>
+        <section class="beat"><h4>0:04–0:12 · The belief</h4><p>Most people reach for more discipline and a stricter app. Then the app asks them for forty small decisions a week.</p></section>
+        <section class="beat"><h4>0:12–0:32 · The point</h4><p>Your budget has too many categories. Every one is a decision you make at the checkout. Cut it to four: bills, food, fun, savings. Fewer choices means you actually open it.</p></section>
+        <section class="beat"><h4>0:32–0:40 · What to do</h4><p>Tonight, merge every category into those four. Ten minutes, tops.</p></section>
+        <section class="beat final"><h4>0:40–0:45 · Last line</h4><p>A budget you open beats a perfect one you don't.</p></section>
+        <section class="beat"><h4>CTA</h4><p>Follow for part two: the one setting that keeps it going.</p></section>
+        <div class="why"><strong>Why this works</strong><ul><li>Contrarian hook: it flips the "you need discipline" belief in the first line.</li><li>One problem, one fix, one number (four categories) the viewer can act on tonight.</li></ul></div>
+      </div>
+    </article>
+  </section>
+
+  <div class="workspace">
+    <!-- ============ INPUT PANEL ============ -->
+    <section class="panel" id="panelTop" aria-labelledby="buildTitle">
+      <h2 id="buildTitle" class="vh">Build a script</h2>
+
+      <div class="tabs" role="tablist" aria-label="Mode">
+        <button role="tab" id="tab-write" aria-selected="true" aria-controls="modePanel" data-mode="write">3 scripts</button>
+        <button role="tab" id="tab-hooks" aria-selected="false" aria-controls="modePanel" data-mode="hooks">10 hooks</button>
+        <button role="tab" id="tab-grade" aria-selected="false" aria-controls="modePanel" data-mode="grade">Grade mine</button>
+      </div>
+
+      <form id="modePanel" class="form" novalidate>
+        <!-- key (only shown until connected) -->
+        <fieldset class="keybox" id="keyBox">
+          <legend>Step 1 · Add your own Gemini key (free from Google)</legend>
+          <p class="hint" id="keyHelp">Get one in 30 seconds at <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">Google AI Studio</a>. It stays in this browser and is sent only to Google.</p>
+          <div class="row">
+            <label for="apiKey" class="vh">Gemini API key</label>
+            <input id="apiKey" name="gemini-key" type="password" autocomplete="off" spellcheck="false" placeholder="Paste your Gemini key" aria-label="Gemini API key">
+            <button class="btn ghost" id="connectBtn" type="button">Connect</button>
+          </div>
+          <p class="status" id="keyStatus" role="status"></p>
+        </fieldset>
+
+        <div class="field" data-for="write hooks">
+          <label for="topic">What is the video about?</label>
+          <textarea id="topic" rows="2" placeholder="Why most budgeting apps fail by month two"></textarea>
+          <p class="err" id="topicErr" role="alert"></p>
+        </div>
+
+        <div class="field" data-for="grade">
+          <label for="pasted">Paste your script</label>
+          <textarea id="pasted" rows="9" placeholder="Paste the full script, hook to CTA"></textarea>
+          <p class="err" id="pastedErr" role="alert"></p>
+        </div>
+
+        <div class="grid2" data-for="write hooks">
+          <div class="field">
+            <label for="format">Format</label>
+            <select id="format"></select>
+          </div>
+          <div class="field">
+            <label for="goal">Goal</label>
+            <select id="goal">
+              <option value="reach" selected>Reach</option>
+              <option value="saves">Saves</option>
+              <option value="comments">Comments</option>
+              <option value="dms">DMs / leads</option>
+              <option value="follows">Follows</option>
+              <option value="trust">Trust / authority</option>
+              <option value="sales">Sales</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="length">Length</label>
+            <select id="length">
+              <option>15–30 seconds</option>
+              <option selected>30–60 seconds</option>
+              <option>1–3 minutes</option>
+              <option>5–10 minutes</option>
+              <option>10–20 minutes</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="platform">Platform</label>
+            <select id="platform">
+              <option>YouTube</option><option>YouTube Shorts</option><option>Instagram Reels</option><option>TikTok</option><option>LinkedIn</option><option>Threads</option>
+            </select>
+          </div>
+        </div>
+
+        <details class="more" data-for="write hooks">
+          <summary>Add facts, audience and CTA <span>optional</span></summary>
+          <div class="field"><label for="facts">Real numbers or facts to use</label>
+            <textarea id="facts" rows="2" placeholder="Leave blank and it uses [YOUR NUMBER] placeholders, never invented stats"></textarea></div>
+          <div class="field"><label for="audience">Who is watching</label>
+            <input id="audience" name="audience" type="text" autocomplete="off" placeholder="First-time freelancers"></div>
+          <div class="field"><label for="cta">Call to action</label>
+            <input id="cta" name="cta" type="text" autocomplete="off" placeholder="Subscribe for part 2"></div>
+          <div class="field"><label for="avoid">Never say</label>
+            <input id="avoid" name="avoid" type="text" autocomplete="off" placeholder="Words or claims to keep out"></div>
+        </details>
+
+        <!-- voice -->
+        <fieldset class="voice">
+          <legend>Voice</legend>
+          <div class="voicecards" role="radiogroup" aria-label="Voice">
+            <label class="vcard"><input type="radio" name="voice" value="import">
+              <span class="vname">Make or import my voiceprint</span><span class="vdesc" id="importDesc">Make one from your own writing in about a minute, or import one.</span></label>
+            <label class="vcard"><input type="radio" name="voice" value="brie">
+              <span class="vname">Example voice: Brie</span><span class="vdesc">See how a real voiceprint changes the writing. Observation first, plain words, a quiet last line.</span></label>
+            <label class="vcard"><input type="radio" name="voice" value="none" checked>
+              <span class="vname">Plain</span><span class="vdesc">A clear, friendly creator voice. Good to start with.</span></label>
+          </div>
+
+          <div class="importer" id="importer" hidden>
+            <div class="maker" id="maker">
+              <h3 class="makerh">Make my voiceprint</h3>
+              <p class="hint">Paste 4 to 6 real things you wrote, from different parts of your life: a work email or post, something personal, something where you argue a point, a casual text. Real writing only. Describing your style ("I'm warm and direct") does not count.</p>
+              <div id="mkSamples" class="mksamples"></div>
+              <div class="row">
+                <button class="btn ghost sm" id="mkAdd" type="button">Add a sample</button>
+                <button class="btn" id="mkGo" type="button">Make my voiceprint</button>
+              </div>
+              <p class="err" id="mkErr" role="alert"></p>
+              <p class="status" id="mkStatus" role="status"></p>
+              <p class="hint">Your samples go to Gemini with your key to build the rules. They are not saved anywhere.</p>
+            </div>
+            <h3 class="makerh">Already have one? Import it</h3>
+            <p class="hint">A voiceprint is a set of rules pulled from your real writing. You can also <a href="https://github.com/brie-wieselman/voiceprint" target="_blank" rel="noopener">make one with the free Voiceprint skill</a> for Claude.</p>
+            <div class="field">
+              <label for="vpUrl">Link to a voiceprint file (GitHub or Gist, .md or .txt)</label>
+              <div class="row">
+                <input id="vpUrl" name="voiceprint-url" type="url" inputmode="url" autocomplete="url" placeholder="https://github.com/you/voiceprint/blob/main/my-voice.md">
+                <button class="btn ghost" id="vpFetch" type="button">Load</button>
+              </div>
+              <p class="err" id="vpErr" role="alert"></p>
+            </div>
+            <div class="importalts">
+              <button class="link" id="vpExample" type="button">Try the example voiceprint</button>
+              <span aria-hidden="true">·</span>
+              <label class="link" for="vpFile">Upload a file</label>
+              <input id="vpFile" type="file" accept=".md,.txt,text/plain,text/markdown" class="vh">
+              <span aria-hidden="true">·</span>
+              <button class="link" id="vpPasteBtn" type="button">Paste it</button>
+            </div>
+            <div class="field" id="vpPasteWrap" hidden>
+              <label for="vpPaste">Paste voiceprint text</label>
+              <textarea id="vpPaste" rows="5"></textarea>
+              <button class="btn ghost sm" id="vpPasteUse" type="button">Preview</button>
+            </div>
+            <div class="vpreview" id="vpPreview" hidden>
+              <div class="vphead"><span id="vpSource"></span><span id="vpSize"></span></div>
+              <pre id="vpText" tabindex="0" aria-label="Voiceprint preview"></pre>
+              <p class="hint">Read it before you use it. It is sent to Gemini as style rules only, and is saved in this browser, nowhere else.</p>
+              <div class="row">
+                <button class="btn" id="vpUse" type="button">Use this voiceprint</button>
+                <button class="btn ghost" id="vpDownload" type="button">Download .md</button>
+                <button class="btn ghost" id="vpClear" type="button">Remove</button>
+              </div>
+              <p class="hint" id="vpKeep" hidden>To keep it for good, save the .md file, or put it in a GitHub repo like <a href="https://github.com/brie-wieselman/voiceprint" target="_blank" rel="noopener">brie-wieselman/voiceprint</a> and import it by link next time.</p>
+            </div>
+          </div>
+        </fieldset>
+
+        <button class="btn primary big" id="runBtn" type="submit">Write 3 scripts</button>
+        <p class="status" id="runStatus" role="status"></p>
+      </form>
+    </section>
+
+    <!-- ============ OUTPUT ============ -->
+    <section class="output" aria-labelledby="outTitle" aria-live="polite">
+      <button class="btn ghost sm backbtn" id="backBtn" type="button" hidden>← Edit inputs</button>
+      <div class="outhead">
+        <h2 id="outTitle">Scripts</h2>
+        <div class="outacts" id="outActs" hidden>
+          <button class="btn ghost sm" id="copyAll" type="button">Copy all</button>
+        </div>
+      </div>
+
+      <div class="empty" id="empty">
+        <div class="ghostcard" aria-hidden="true">
+          <span class="gl w60"></span><span class="gl w90"></span><span class="gl w75"></span><span class="gl w40 last"></span>
+        </div>
+        <p>Your scripts appear here, three at a time. Pick a format, type your topic, then press <strong>Write 3 scripts</strong>.</p>
+      </div>
+
+      <p class="status outstatus" id="outStatus" role="status"></p>
+      <ol class="steps" id="steps" hidden aria-label="Progress"></ol>
+      <pre class="stream" id="stream" hidden aria-busy="true"></pre>
+      <div class="cards" id="cards"></div>
+
+      <section class="history" aria-labelledby="histTitle">
+        <div class="outhead"><h2 id="histTitle">Recent</h2>
+          <button class="link" id="histClear" type="button" hidden>Clear</button></div>
+        <ol id="histList" class="histlist"></ol>
+        <p class="hint" id="histEmpty">Nothing yet. Runs are saved in this browser only.</p>
+      </section>
+    </section>
+  </div>
+</main>
+
+<footer class="shell foot">
+  <p>Built by <a href="https://localcurrent.ai/work.html">Brie Wieselman</a>, clinician who builds clinical AI. Voice rules from <a href="https://github.com/brie-wieselman/voiceprint" target="_blank" rel="noopener">Voiceprint</a>.</p>
+  <p class="hint">Your key, inputs and history never touch our servers. There are none. <button class="link" id="introOpen" type="button">Watch the 36-second intro</button></p>
+</footer>
+
+
+<dialog class="intro" id="introDlg" aria-labelledby="introTitle">
+  <div class="introhead">
+    <h2 id="introTitle">How Last Line works <span>· 36 seconds, with sound</span></h2>
+    <button class="iconbtn" id="introClose" type="button" aria-label="Close intro video">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+  </div>
+  <video id="introVideo" data-src="intro.mp4" data-poster="intro-poster.jpg" width="1920" height="1080" muted playsinline controls preload="none"></video>
+  <div class="introacts">
+    <button class="btn ghost sm" id="introSound" type="button"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M19 5a10 10 0 0 1 0 14"/></svg><span>Turn sound on</span></button>
+    <span class="introspacer"></span>
+    <button class="btn ghost sm" id="introSkip" type="button">Close</button>
+  </div>
+</dialog>
+
+<template id="cardTpl">
+  <article class="card">
+    <header class="chead">
+      <span class="badge"></span>
+      <span class="dur"></span>
+    </header>
+    <h3 class="ctitle"></h3>
+    <div class="cbody"></div>
+    <footer class="cacts">
+      <button class="btn ghost sm" data-act="copy" type="button">Copy</button>
+      <button class="btn ghost sm" data-act="shorter" type="button">Tighter</button>
+      <button class="btn ghost sm" data-act="lastline" type="button">Sharper last line</button>
+      <button class="btn ghost sm" data-act="specific" type="button">More specific</button>
+    </footer>
+  </article>
+</template>
+
+<script src="playbook.js?v=22"></script>
+<script src="app.js?v=22"></script>
+</body>
+</html>
